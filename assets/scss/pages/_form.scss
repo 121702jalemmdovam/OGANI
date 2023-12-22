@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    nav{
+        width: 80%;
+        margin: auto;
+        .collapseDiv{
+            transform: translateX(100px);
+            width: 400px;
+         display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        .navbar-nav{
+            li a{
+               font-size: 16px;
+               font-weight: 600;
+                color: black;
+                &:hover{
+                    color:#7FAD39 !important ;
+                }
+            }
+        }
+        .navRight{
+            transform: translateX(120px);
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 10px;
+            i{
+                color: black;
+            }
+        }
+    }}}
+    #Ogani{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        .container{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            .OganiItem{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                .dropMenu{
+                    a{
+                        font-size: 19px;
+                    }
+                }
+                
+        }
+        }}
+
+        #Fruit{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        .container{
+            margin: 20px;
+            margin-bottom: 20px;
+            .FruitCard{
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                margin: 10px;
+                img{
+                    width: 100%;
+                    height: auto;
+
+                }
+                .text{
+                    padding: 5px;
+                    width: 170px;
+                    height: 40px;
+                    position: absolute;
+                 top: 180px;
+                 background-color: white;
+                 h5{
+                    font-weight: 700;
+                 }
+                }
+            }
+        }
+        }
+        #FormMethod{
+            width: 100%;
+            height: auto;
+            padding: 30px;
+            .container{
+                margin-top: 20px;
+            }
+        }
+        #formDisplay {
+            .container {
+                #display {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 25px;
+        
+                    .box {
+                        width: 250px;
+                        padding: 25px;
+                        background-color: bisque;
+                        box-shadow: 0 1px 10px rgb(0, 0, 0.2);
+        
+                        span {
+                            font-weight: 500;
+                            font-size: 18px;
+                        }
+        
+                        button {
+                            color: #fff;
+                            background-color:brown;
+                            transition: 1s;
+                            padding: 10px;
+                            border-radius: 20px;
+                            display: flex;
+                            gap: 10px;
+                            font-weight: 600;
+                            justify-content: center;
+                            align-items: center;
+        
+                            &:hover {
+                               
+                                color: white;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        

@@ -1,0 +1,574 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  width: 80%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  transform: translateX(100px);
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+header nav .collapseDiv .navbar-nav li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+header nav .collapseDiv .navbar-nav li a:hover {
+  color: #7FAD39 !important;
+}
+header nav .collapseDiv .navRight {
+  transform: translateX(120px);
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+header nav .collapseDiv .navRight i {
+  color: black;
+}
+
+#Ogani {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#Ogani .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Ogani .container .OganiItem {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Ogani .container .OganiItem .dropMenu a {
+  font-size: 19px;
+}
+
+#Fruit {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Fruit .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Fruit .container .FruitCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+#Fruit .container .FruitCard img {
+  width: 100%;
+  height: auto;
+}
+#Fruit .container .FruitCard .text {
+  padding: 5px;
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  margin-top: 5px;
+  background-color: white;
+}
+#Fruit .container .FruitCard .text h5 {
+  font-weight: 700;
+}
+
+#ApiProducts {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4F6FA;
+}
+#ApiProducts .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#ApiProducts .container .ApiProductsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#ApiProducts .container #productList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  border: 1px solid brown;
+  padding: 20px;
+}
+#ApiProducts .container #productList .boxDiv {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#ApiProducts .container #productList .boxDiv img {
+  width: 100%;
+  height: auto;
+}
+#ApiProducts .container #productList .boxDiv .title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#ApiProducts .container #productList .boxDiv .price {
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+}
+#ApiProducts .container #productList .boxDiv button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  height: 40px;
+  border: none;
+  background-color: #7FAD39;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+#ApiProducts .container #productList .boxDiv button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+#ApiProducts .container #pagi {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 160px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+#ApiProducts .container #pagi:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 971px) {
+  #ApiProducts {
+    width: 100%;
+    height: auto;
+  }
+  #ApiProducts .container #productList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #ApiProducts .container #productList .boxDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #ApiProducts .container #productList .boxDiv img {
+    width: 100%;
+  }
+}
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top: 1px solid rgb(228, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  width: 80%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  transform: translateX(100px);
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+header nav .collapseDiv .navbar-nav li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+header nav .collapseDiv .navbar-nav li a:hover {
+  color: #7FAD39 !important;
+}
+header nav .collapseDiv .navRight {
+  transform: translateX(120px);
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+header nav .collapseDiv .navRight i {
+  color: black;
+}
+
+#Ogani {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#Ogani .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Ogani .container .OganiItem {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Ogani .container .OganiItem .dropMenu a {
+  font-size: 19px;
+}
+
+#Fruit {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#Fruit .container {
+  margin: 20px;
+  margin-bottom: 20px;
+}
+#Fruit .container .FruitCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+#Fruit .container .FruitCard img {
+  width: 100%;
+  height: auto;
+}
+#Fruit .container .FruitCard .text {
+  padding: 5px;
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 180px;
+  background-color: white;
+}
+#Fruit .container .FruitCard .text h5 {
+  font-weight: 700;
+}
+
+#Productfiltered {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: bisque;
+}
+#Productfiltered .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#Product {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: bisque;
+}
+#Product .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Product .container #products {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+#Product .container #products .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+}
+#Product .container #products .box img {
+  width: 100%;
+  height: auto;
+}
+#Product .container #products .box .title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#Product .container #products .box .price {
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+}
+#Product .container #products .box button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: brown;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+#Product .container #products .box button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 971px) {
+  #Product {
+    width: 100%;
+    height: auto;
+  }
+  #Product .container #products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #Product .container #products .box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #Product .container #products .box img {
+    width: 100%;
+  }
+}
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top: 1px solid rgb(228, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top: 1px solid rgb(228, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  width: 80%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  transform: translateX(100px);
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+header nav .collapseDiv .navbar-nav li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+header nav .collapseDiv .navbar-nav li a:hover {
+  color: #7FAD39 !important;
+}
+header nav .collapseDiv .navRight {
+  transform: translateX(120px);
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+header nav .collapseDiv .navRight i {
+  color: black;
+}
+
+#Ogani {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#Ogani .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Ogani .container .OganiItem {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Ogani .container .OganiItem .dropMenu a {
+  font-size: 19px;
+}
+
+#Fruit {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#Fruit .container {
+  margin: 20px;
+  margin-bottom: 20px;
+}
+#Fruit .container .FruitCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+#Fruit .container .FruitCard img {
+  width: 100%;
+  height: auto;
+}
+#Fruit .container .FruitCard .text {
+  padding: 5px;
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 180px;
+  background-color: white;
+}
+#Fruit .container .FruitCard .text h5 {
+  font-weight: 700;
+}
+
+#FormMethod {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#FormMethod .container {
+  margin-top: 20px;
+}
+
+#formDisplay .container #display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#formDisplay .container #display .box {
+  width: 250px;
+  padding: 25px;
+  background-color: bisque;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+#formDisplay .container #display .box span {
+  font-weight: 500;
+  font-size: 18px;
+}
+#formDisplay .container #display .box button {
+  color: #fff;
+  background-color: brown;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+#formDisplay .container #display .box button:hover {
+  color: white;
+  color: black;
+}
